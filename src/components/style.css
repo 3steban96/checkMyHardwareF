@@ -1,0 +1,23 @@
+@keyframes rotate {
+    from {
+      transform: rotate(10deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+  
+  .svgAnimated {
+    background-color: '#f1f1f1';
+    animation: rotate 20s linear infinite;
+  }
+  .backgroundC{
+    background: -webkit-linear-gradient(179deg, #59277f, #000000);/* Chrome 10-25, Safari 5.1-6 */                          
+    background: linear-gradient(180deg, #59277f, #000000)/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+  }
+  .backgroundH{
+    background-color: #7754a0;
+    box-shadow: 4px 13px 30px #624583;
+  }
